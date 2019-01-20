@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f65e3766-d402-4e4c-a96a-998a9fa6b613" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chicago10cucumberjunit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configurations.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/EditerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/GooglePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/WikipediaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/YoutubePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/AmazonTitle_steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Amazon_steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Editer_steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/GoogleSearch_steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Test_steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Wiki_steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Youtube_steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/google_stepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/amazon.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/amazonTitle.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/editer.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/editer2.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/googleParameters.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/test.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/wiki.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/youtube.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber/formatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber/jquery-1.8.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/amazon.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/amazonTitle.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/editer.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/editer2.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/googleParameters.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/googleSearch.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/test.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/wiki.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/youtube.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/AmazonPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/EditerPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/GooglePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/WikipediaPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/YoutubePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/steps/AmazonTitle_steps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/steps/Amazon_steps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/steps/Editer_steps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/steps/GoogleSearch_steps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/steps/Test_steps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/steps/Wiki_steps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/steps/Youtube_steps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/steps/google_stepDefs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/utilities/Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1388512221">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="feature" value="13" />
+          <entry key="html" value="1" />
+          <entry key="java" value="24" />
+          <entry key="properties" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Cucumber" value="13" />
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="24" />
+          <entry key="Properties" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="feature" value="2487" />
+          <entry key="java" value="2703" />
+          <entry key="xml" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Cucumber" value="2487" />
+          <entry key="JAVA" value="2703" />
+          <entry key="XML" value="6" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/runners/Runner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Config.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+              <folding>
+                <element signature="e#591#592#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/editer2.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/googleParameters.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/Editer_steps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="129" selection-start-line="129" selection-end-line="129" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2625#2626#0" expanded="true" />
+                <element signature="e#2668#2669#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/GoogleSearch_steps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/test/java/pages</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/utilities/Driver.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/Test_steps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/AmazonTitle_steps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/example.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/GooglePage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/test.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/google_stepDefs.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/wiki.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/WikipediaPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/Wiki_steps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/amazonTitle.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/AmazonPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/Amazon_steps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/amazon.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/youtube.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/YoutubePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/Youtube_steps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/EditerPage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/editer.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/utilities/Config.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/googleParameters.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/GoogleSearch_steps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/editer2.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/runners/Runner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/Editer_steps.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="chicago10cucumberjunit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chicago10cucumberjunit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chicago10cucumberjunit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chicago10cucumberjunit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chicago10cucumberjunit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chicago10cucumberjunit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chicago10cucumberjunit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chicago10cucumberjunit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chicago10cucumberjunit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chicago10cucumberjunit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chicago10cucumberjunit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chicago10cucumberjunit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chicago10cucumberjunit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chicago10cucumberjunit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chicago10cucumberjunit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chicago10cucumberjunit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chicago10cucumberjunit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chicago10cucumberjunit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chicago10cucumberjunit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chicago10cucumberjunit" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548007428740" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utilities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chicago10cucumberjunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.Runner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Runner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f65e3766-d402-4e4c-a96a-998a9fa6b613" name="Default Changelist" comment="" />
+      <created>1547403691044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547403691044</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Runner - 2019.01.20 at 11h 20m 35s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner - 2019.01.20 at 11h 25m 50s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner - 2019.01.20 at 11h 26m 16s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner - 2019.01.20 at 11h 31m 37s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner - 2019.01.20 at 11h 34m 00s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner - 2019.01.20 at 11h 37m 18s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner - 2019.01.20 at 11h 45m 58s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner - 2019.01.20 at 11h 53m 03s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner - 2019.01.20 at 11h 53m 26s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner - 2019.01.20 at 11h 56m 17s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21091205" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.066066064" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.018018018" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32882884" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16449511" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0015015015" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.018018018" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32882884" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Test_steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/example.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/test.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/wiki.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/WikipediaPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/cucumber/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Wiki_steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/amazonTitle.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/googleSearch.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Amazon_steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/youtube.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/google_stepDefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="31" column="84" selection-start-line="31" selection-start-column="84" selection-end-line="31" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/AmazonTitle_steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/GooglePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/amazon.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/YoutubePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Youtube_steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207">
+          <caret line="49" column="69" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/AmazonPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/editer.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="62" selection-start-line="1" selection-start-column="2" selection-end-line="16" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/EditerPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configurations.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+          <folding>
+            <element signature="e#591#592#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/googleParameters.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/GoogleSearch_steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Editer_steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2625#2626#0" expanded="true" />
+            <element signature="e#2668#2669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runners/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/editer2.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
