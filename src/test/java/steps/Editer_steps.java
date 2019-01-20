@@ -82,12 +82,7 @@ public class Editer_steps {
 
     }
 
-    @Then("user should enter firstname to search box")
-    public void user_should_enter_firstname_to_search_box()  {
 
-        edi.searchFirstname.sendKeys("Chynara");
-
-    }
 
     @Then("user should see first name is inserted to the table")
     public void user_should_see_first_name_is_inserted_to_the_table()  {
@@ -125,7 +120,7 @@ public class Editer_steps {
     @Then("user should see firstname {string} inserted to data")
     public void user_should_see_firstname_inserted_to_data(String name) {
         String t=edi.data.getText();
-        Assert.assertTrue(t.contains("Chynara"));
+        Assert.assertTrue(t.contains(name));
 
 
 
@@ -153,6 +148,20 @@ public class Editer_steps {
     public void user_should_enter_salary(String salary) {
         edi.salary.sendKeys(salary);
 
+
+    }
+    @Then("user should enter {string}")
+    public void user_should_enter(String name) {
+
+    }
+
+    @Then("user should enter firstname {string} to search box")
+    public void user_should_enter_firstname_to_search_box(String name ) {
+
+    }
+
+    @Then("user should see firstname  {string} is inserted to the table")
+    public void user_should_see_firstname_is_inserted_to_the_table(String string) {
 
     }
 
