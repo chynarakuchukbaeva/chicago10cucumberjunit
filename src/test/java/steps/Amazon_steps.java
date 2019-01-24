@@ -33,6 +33,7 @@ public class Amazon_steps {
     @Then("user should see headphones in results")
     public void user_should_see_headphones_in_results() {
         String result=amazon.headphonesText.getText();
+        Assert.fail();
 
         Assert.assertTrue("keyword headphones was not found",result.contains("headphones"));
 
