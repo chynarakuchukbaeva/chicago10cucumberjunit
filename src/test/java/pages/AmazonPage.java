@@ -21,5 +21,6 @@ public class AmazonPage {
     public WebElement button;
     @FindBy(xpath="//input[@class='nav-input'][1]")
     public WebElelemt box;
+    //dwjkdjsj
 
 }
