@@ -19,5 +19,7 @@ public class AmazonPage {
     public WebElement headphonesText;
     @FindBy(xpath="//input[@class='nav-input'][1]")
     public WebElement button;
+    @FindBy(xpath="//input[@class='nav-input'][1]")
+    public WebElelemt box;
 
 }
